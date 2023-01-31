@@ -5,12 +5,12 @@
 header {
   background: rgb(98, 93, 201);
 
-  background-color: bisque;
+  background-color: rgb(167, 152, 134);
 }
 
 nav {
   height: 60px;
-  display: flex;
+  display: auto;
   align-items: center;
   justify-content: center;
 }
@@ -22,8 +22,7 @@ header ul {
   display: flex;
   align-items: center;
   justify-content:  flex-start;
-  /* justify-content: center; */
-  /* justify-content: space-around; */
+
 
 }
 
@@ -43,7 +42,7 @@ header ul li a {
 
 
 main {
-  display: flex;
+  display: auto;
   width: 960px;
   margin: 30px auto;
   flex-wrap: wrap;
@@ -72,7 +71,7 @@ article section {
 }
 
 article h2 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:  Arial, Helvetica, sans-serif;
   font-size: 40px;
   font-weight: bold;
 }
@@ -82,16 +81,13 @@ article h2 {
   color: white;
   text-decoration: none;
   padding: 10px 30px;
-  /* border-style: solid;
-  border-color: aquamarine;
-  border-top: 10px; */
   border-radius: 10px;
 
 }
 
 #call:hover {
   transition-duration: 350ms;
-  background-color: brown;
+  background-color: rgb(177, 105, 105);
   color: white;
 }
 
